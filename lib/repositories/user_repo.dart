@@ -3,7 +3,7 @@ import 'dart:convert';
 import 'package:http/http.dart';
 import 'package:sample/extension/extendsion.dart';
 import 'package:sample/models/user_model.dart';
-import 'package:sample/repository/base_http.dart';
+import 'package:sample/repositories/base_http.dart';
 
 class UserRepository extends BaseHTTP {
   Future<List<UserModel>> getUsers() async {

@@ -3,7 +3,7 @@ import 'package:sample/blocs/app_blocs.dart';
 import 'package:sample/blocs/app_event.dart';
 import 'package:sample/blocs/app_states.dart';
 import 'package:sample/models/user_model.dart';
-import 'package:sample/repository/repositories.dart';
+import 'package:sample/repositories/user_repo.dart';
 import 'package:flutter_bloc/flutter_bloc.dart';
 
 void main() {
