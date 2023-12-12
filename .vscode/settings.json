@@ -1,0 +1,13 @@
+{
+    "yaml.schemas": {
+        "file:///Users/satish.kumar/.vscode/extensions/atlassian.atlascode-3.0.9/resources/schemas/pipelines-schema.json": "bitbucket-pipelines.yml",
+        "https://json.schemastore.org/pubspec.json": "file:///Users/satish.kumar/Development/flutter_sample/pubspec.yaml"
+    },
+    "dart.flutterSdkPath": ".fvm/flutter_sdk",
+    "search.exclude": {
+        "**/.fvm": true
+    },
+    "files.watcherExclude": {
+        "**/.fvm": true
+    }
+}
