@@ -8,7 +8,7 @@ import 'package:sample/repository/base_http.dart';
 class UserRepository extends BaseHTTP {
   Future<List<UserModel>> getUsers() async {
     Response response = await sendRequest(HttpType.get, "users?page=2");
-    if (response.isSuccess() ) {
+    if (response.isSuccess()) {
       final List result = jsonDecode(response.body)['data'];
       return result.map(((e) => UserModel.fromJson(e))).toList();
     } else {

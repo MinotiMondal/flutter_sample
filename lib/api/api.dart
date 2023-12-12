@@ -1,4 +1,4 @@
-class Api{
+class Api {
   Api._();
-  static const api="https://reqres.in/api/";
+  static const api = "https://reqres.in/api/";
 }
